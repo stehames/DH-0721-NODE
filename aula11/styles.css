@@ -1,7 +1,12 @@
 body{
-    font-family: Arial;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: justify;
 }
 
 h1{
-    color:#EC183F
+    color:#EC183F;
+}
+
+footer{
+    text-align: center;
 }

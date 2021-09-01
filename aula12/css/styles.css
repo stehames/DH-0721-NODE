@@ -1,0 +1,76 @@
+div{
+    /* espaçamento externo, separar uma caixa da outra */
+    margin: 10px;
+
+    /* espaçamento interno */
+    padding: 20px;
+    
+}
+
+div.rec2{
+    background-color: yellow;
+    border: 5px solid black;  
+    /* display: inline;  */
+}
+
+div.titulo1{
+    background-color: blue;
+    border: 5px dotted black;
+    display: inline-block;
+
+    font-family: Ropa Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 32px;
+
+    color: #777777;
+}
+
+div.titulo2{
+    background-color: red;
+    box-sizing: border-box;
+    display: inline-block;
+    font-family: Ropa Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 11px;
+
+    color: #AAAAAA;
+}
+
+div.menu{
+    display: inline-block;
+}
+
+div.carrossel{
+    /* display:inline-block; */
+    background-color: blue;
+}
+
+div.casas{
+    background-color:green;
+}
+
+div.tipos{
+    background-color: purple;
+}
+
+footer{
+    background-color: orange;
+    width: 100%;
+}
+
+#foot{
+    position: absolute;
+    width: 697px;
+    height: 243px;
+}
+
+iframe{
+    position: absolute;
+    width: 252px;
+    height: 163px;
+    border-radius: 19px;
+}

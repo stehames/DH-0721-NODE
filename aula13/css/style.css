@@ -1,0 +1,121 @@
+header{
+    height:110px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color:darkgray;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+
+header ul li{
+    margin-right: 30px;
+
+}
+
+section.banner img {
+    width: 100%;
+}
+
+section.estilo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.estilo div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+section.estilo h1{
+    
+    font-size: 36px; 
+}
+
+section.estilo div .imagem-estilo{
+    height: 500px;
+    align-self: center;
+}
+
+section.trinta-off{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: palevioletred;
+}
+
+section.trinta-off div.cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  
+
+}
+
+section.trinta-off div.cards div{
+    margin-right: 30px;
+}
+
+footer{
+    background-color:#C2185B;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div.logo{
+    width: 255px;
+    left: 128px;
+    top: 3553px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-left: 127px;
+}
+
+footer div.categorias{
+    display: flex;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color:  #FFFFFF; 
+    
+    margin-bottom: 31px;
+}
+
+section div.sandalias{
+    display: flex;
+    align-items: center;
+}
+
+section div.sandalias img{
+    
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+footer div.categorias ul{
+    list-style: none;
+    margin-right: 148px;
+    margin-top: 40px;
+    font-family: Open Sans;
+}
+
+footer div li.titulo{
+    font-weight: bold;
+}
+
+

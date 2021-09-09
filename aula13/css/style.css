@@ -1,9 +1,12 @@
+*{
+    font-family: Open Sans;
+}
+
 header{
     height:110px;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color:darkgray;
 }
 
 header ul{
@@ -11,13 +14,12 @@ header ul{
     display: flex;
     align-items: center;
     font-size: 20px;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;  
 }
 
 header ul li{
     margin-right: 30px;
-
+    color: #777777;
 }
 
 section.banner img {
@@ -33,36 +35,96 @@ section.estilo{
 section.estilo div{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 section.estilo h1{
-    
-    font-size: 36px; 
+    font-weight: 800;
+    font-size: 60px;
+    text-align: right;
+    color: #000000;
 }
 
 section.estilo div .imagem-estilo{
     height: 500px;
     align-self: center;
+    margin-right: 40px;
 }
 
 section.trinta-off{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: palevioletred;
+    justify-content:center;
+    background-color: #C2185B;
+    margin: 10% 0;
+    height:600px;
+}
+
+section.trinta-off h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 60px;
+    color: #FFFFFF;
 }
 
 section.trinta-off div.cards{
     width: 100%;
     display: flex;
-    justify-content: center;
-  
-
+    justify-content: space-around;
 }
 
 section.trinta-off div.cards div{
-    margin-right: 30px;
+    background: #ffffff;
+    margin: 15px;
+}
+
+section.trinta-off div.cards div p{
+    font-size: 16px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+section.sandalias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+section.sandalias .ver{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+section.sandalias .ver h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    color: #000000;
+}
+
+section.sandalias .ver button{
+    color: #FFFFFF;
+    width: 403px;
+    height: 99px;
+    background: #C2185B;
+    align-self: right;
+    font-weight: 600;
+    font-size: 39px;
+    color: #FFFFFF;
+}
+
+section.sandalias .ver img{
+    display: flex;
+    justify-content:flex-end;
 }
 
 footer{
@@ -76,11 +138,7 @@ footer div.logo{
     width: 255px;
     left: 128px;
     top: 3553px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
-    line-height: 19px;
     color: #FFFFFF;
     margin-left: 127px;
 }
@@ -91,27 +149,13 @@ footer div.categorias{
     font-size: 20px;
     line-height: 27px;
     color:  #FFFFFF; 
-    
     margin-bottom: 31px;
-}
-
-section div.sandalias{
-    display: flex;
-    align-items: center;
-}
-
-section div.sandalias img{
-    
-    display: flex;
-    justify-content: center;
-    margin-right: 30px;
 }
 
 footer div.categorias ul{
     list-style: none;
     margin-right: 148px;
     margin-top: 40px;
-    font-family: Open Sans;
 }
 
 footer div li.titulo{

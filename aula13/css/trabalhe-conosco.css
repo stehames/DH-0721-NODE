@@ -1,20 +1,40 @@
+header{
+    position:fixed;
+    top: 0;
+}
+
+section.frete-gratis{
+    width: 100%;
+    color: #fff;
+    background-color: #c2185B;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: fixed;
+    top: 16vh;
+}
+
 main{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
+    margin-top:180px;
+}
+
+main h1{
+    font-size:36px;
+    color:darkgray;
 }
 
 main div.secoes{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 section.formulario, section.info-formulario{
     width: 40%
-}
-
-section.formulario h1{
-    font-size:36px;
 }
 
 section.formulario form{
@@ -29,16 +49,26 @@ section.formulario form textarea{
 
 section.formulario div.curriculo button{
     border: none;
+    width: 100px;
+    height: 25px;
     color: #ffffff;
-    background-color: darkgray;
+    background-color: #a9a9a9;
 }
 
 section.formulario form button.enviar-infos{
     color: #fff;
     background: #c2185B;
-    font-size: 20px;
+    font-size: 24px;
     height: 30px;
     border: none;
+    transition: 2s;
+    transition-delay: 0.5s;
+}
+
+section.formulario form button.enviar-infos:hover{
+    background-color: #fff;
+    color:#c2185B;
+    border: solid 0.5px #a9a9a9;
 }
 
 label, input{
@@ -46,5 +76,5 @@ label, input{
 }
 
 .my-5{
-    margin: 5px 0;
+    margin: 20px 0;
 }
